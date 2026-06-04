@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 首页
+title: Homepage
 ---
 
 <style>
@@ -83,7 +83,7 @@ title: 首页
   <h1>Hello，I'm Eric Wang</h1>
   <div class="bio">
     热爱旅游、打篮球、开源、新技术分享。 <br>
-    专注于后台、前端、Python、数据分析、AI应用开发。<br>
+    专注于数据分析、AI应用开发。<br>
     在学习的同时，喜欢解决生活中遇到的问题，打造简洁实用的作品。
   </div>
 </div>
