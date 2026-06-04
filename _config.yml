@@ -1,9 +1,9 @@
 # 网站基础配置
 title: Eric's HomePage
-email: ericwang2027@126.com
-description: 个人主页 | 技术博客 | 项目展示
+email: ericwang2027@126.com, ar1kk1226@gmail.com
+description: HomePage | Blog | Projects
 baseurl: ""
-url: "https://yfwang99.github.io"
+url: "https://ar1kk1226.github.io"
 #twitter_username: yourname
 github_username: Eric Wang
 

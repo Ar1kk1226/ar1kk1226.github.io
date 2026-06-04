@@ -83,13 +83,13 @@ title: Homepage
   <h1>Hello，I'm Eric Wang</h1>
   <div class="bio">
     热爱旅游、打篮球、开源、新技术分享。 <br>
-    专注于数据分析、AI应用开发。<br>
+    专注于数据分析、各类建模、AI应用开发。<br>
     在学习的同时，喜欢解决生活中遇到的问题，打造简洁实用的作品。
   </div>
 </div>
 
 <!-- 技能 -->
-<h2 class="section-title">我的技能</h2>
+<h2 class="section-title">My Skills</h2>
 <div class="skills">
   <div class="skill-tag">HTML</div>
   <div class="skill-tag">Python</div>
@@ -100,7 +100,7 @@ title: Homepage
 </div>
 
 <!-- 项目预览 -->
-<h2 class="section-title">我的项目</h2>
+<h2 class="section-title">My Projects</h2>
 <div class="project-cards">
   {% for project in site.projects limit:3 %}
   <div class="project-card">
