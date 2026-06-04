@@ -1,0 +1,42 @@
+# 网站基础配置
+title: Eric's HomePage
+email: ericwang2027@126.com
+description: 个人主页 | 技术博客 | 项目展示
+baseurl: ""
+url: "https://yfwang99.github.io"
+#twitter_username: yourname
+github_username: Eric Wang
+
+# 主题
+theme: minima
+plugins:
+  - jekyll-feed
+
+# 文章链接格式（干净！无分类、无多余路径）
+permalink: /:year/:month/:day/:title/
+
+# 顶部导航菜单（对应 pages 文件夹里的页面）
+header_pages:
+  - index.md
+  - pages/blog.md
+  - pages/projects.md
+  - pages/about.md
+
+# 项目功能（必须保留）
+collections:
+  projects:
+    output: true
+
+#  minima 主题设置
+minima:
+  skin: classic
+  social_links:
+    github: yourname
+
+# 屏蔽警告
+sass:
+  sass_dir: _sass
+  quiet_deps: true
+  deprecation_warnings: false
+  quiet: true
+  style: compressed
