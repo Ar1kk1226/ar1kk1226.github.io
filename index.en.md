@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Homepage
+permalink: /index.en.html
+lang: en
 ---
 
 <style>
@@ -82,7 +84,7 @@ title: Homepage
   </div>
   <h1>Hello，I'm Eric Wang</h1>
   <div class="bio">
-    热爱旅游、打篮球、开源、新技术分享。 <br>
+    En 热爱旅游、打篮球、开源、新技术分享。 <br>
     专注于数据分析、各类建模、AI应用开发。<br>
     在学习的同时，喜欢解决生活中遇到的问题，打造简洁实用的作品。
   </div>
@@ -111,5 +113,9 @@ title: Homepage
 </div>
 
 <div style="text-align:center; margin-top:20px;">
-  <a href="/projects/" style="display:inline-block; padding:10px 20px; background:#2b6cb0; color:white; border-radius:6px; text-decoration:none;">查看全部项目</a>
+{% if page.lang == 'zh' %}
+  <a href="/projects.zh.html" style="display:inline-block; padding:10px 20px; background:#2b6cb0; color:white; border-radius:6px; text-decoration:none;">查看全部项目</a>
+{% else %}
+  <a href="/projects.en.html" style="display:inline-block; padding:10px 20px; background:#2b6cb0; color:white; border-radius:6px; text-decoration:none;">View All Projects</a>
+{% endif %}
 </div>

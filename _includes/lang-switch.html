@@ -1,0 +1,8 @@
+<div class="lang">
+    {% if page.url contains ".zh.html" %}
+    <a href="{{ page.url | replace: '.zh.html', '.en.html' }}">English</a>
+    {% elsif page.url contains ".en.html" %}
+    <a href="{{ page.url | replace: '.en.html', '.zh.html' }}">中文</a>
+    {% endif %}
+</div>
+

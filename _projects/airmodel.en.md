@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Ground-Effect Vehicle Innovation
+project_id: "airmodel"
+lang: en 
+permalink: /_projects/my-project-en/
 ---
 
 I establish a club with two of my classmates to innovate several new technologies attemp to resolve several problems

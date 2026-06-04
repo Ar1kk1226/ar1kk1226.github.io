@@ -2,9 +2,46 @@
     <div class="wrapper">
         <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
-            {% for item in site.data.navigation %}
-            <a class="page-link" href="{{ item.link | relative_url }}">{{ item.name }}</a>
-            {% endfor %}
+            {% if page.lang == "en" %}
+            <a class="page-link" href="/index.en.html">Home</a>
+            <a class="page-link" href="/blog.en.html">Blog</a>
+            <a class="page-link" href="/projects.en.html">Projects</a>
+            <a class="page-link" href="/about.en.html">About</a>
+            {% else %}
+            <a class="page-link" href="/index.zh.html">首页</a>
+            <a class="page-link" href="/blog.zh.html">博客</a>
+            <a class="page-link" href="/projects.zh.html">项目</a>
+            <a class="page-link" href="/about.zh.html">关于</a>
+            {% endif %}
+
+            <!-- 替换：语言切换按钮，当前页面语种反向跳转 -->
+            {% if page.lang == 'zh' %}
+            <a id="langBtn" href="javascript:;" style="margin-left:12px;padding:3px 8px;border:1px solid #999;border-radius:4px;text-decoration:none;color:#333;">
+                <span>🅰🆉 English</span>
+            </a>
+            {% else %}
+            <a id="langBtn" href="javascript:;" style="margin-left:12px;padding:3px 8px;border:1px solid #999;border-radius:4px;text-decoration:none;color:#333;">
+                <span>🅰🆉 中文</span>
+            </a>
+            {% endif %}
+
+            <script>
+                // 读取本地缓存语言
+                let saveLang = localStorage.getItem('siteLang') || 'zh';
+                // 点击按钮切换语言
+                document.getElementById('langBtn').onclick = function(){
+                let nowPath = location.pathname;
+                let targetLang;
+                if(saveLang === 'zh'){
+                targetLang = 'en';
+                location.href = nowPath.replace('.zh.html','.en.html');
+                }else{
+                targetLang = 'zh';
+                location.href = nowPath.replace('.en.html','.zh.html');
+                }
+                localStorage.setItem('siteLang',targetLang);
+                }
+            </script>
         </nav>
     </div>
 </header>

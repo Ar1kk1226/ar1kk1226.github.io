@@ -1,12 +1,13 @@
 ---
 layout: page
 title: 关于我
-permalink: /about/
+permalink: /about.zh.html
+lang: zh
 ---
 
 <!--  # 关于我  -->
 
-Dec.2008, Born in Chengdu <br>
+Dec.2008, 出生于成都 <br>
 
 Sept.2011 -  Jun. 2015, 成都市第四幼儿园，度过欢乐时光<br>
 
