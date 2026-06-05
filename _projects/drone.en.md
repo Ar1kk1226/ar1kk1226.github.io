@@ -1,14 +1,15 @@
 ---
 layout: page
-title: 无人机自动控制系统
+title: Drone Automatic Control System
 lang: en
+
 ---
 
-这是一个基于 Python + MAVLink 协议的无人机自主飞行控制项目，实现定点悬停、路径规划、避障等功能。
+This is a drone autonomous flight control project based on Python+MAVLink protocol, which realizes functions such as fixed-point hovering, path planning, obstacle avoidance, etc。
 
 <!-- excerpt -->
 
-技术栈：
+Tech：
 - Python
 - MAVSDK
 - OpenCV
@@ -16,4 +17,4 @@ lang: en
 
 ---
 
-[← 返回上一级](javascript:history.back()) [🏠 返回首页](/)
+[← Back](javascript:history.back()) [🏠 Home](/)

@@ -2,8 +2,8 @@
 layout: page
 title: Ground-Effect Vehicle Innovation
 project_id: "airmodel"
-lang: en 
-permalink: /_projects/my-project-en/
+lang: en
+
 ---
 
 I establish a club with two of my classmates to innovate several new technologies attemp to resolve several problems
@@ -123,4 +123,4 @@ TOTAL STARTUP REQUIREMENT: RMB 50,000
 
 ---
 
-[← 返回上一级](javascript:history.back()) [🏠 返回首页](/)
+[← Back](javascript:history.back()) [🏠 Home](/)

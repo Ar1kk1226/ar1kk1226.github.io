@@ -1,36 +1,39 @@
 ---
 layout: page
-title: 流感指数模型建模分析
+title: Modeling and analysis of influenza index model
 lang: en
+
 ---
 
-这是一个四川大学华西公共卫生学院张韬教授主持的一个项目，主要是把复杂的流感监测数据转换为浅显易懂的风险等级模式，为市民提供防护建议。
+This project is led by Professor Zhang Tao from the West China School of Public Health, Sichuan University. 
+The main objective is to convert complex influenza surveillance data into a simple and understandable risk level model, providing citizens with protective recommendations
+
 
 <!-- excerpt -->
 
-## 1. 关键内容
+## 1. Key Contents
 
-1） 构建流感指数机分级分析
+1） Constructing influenza index and grading analysis
  
-2） 基于因果驱动AI模型的流感指数模型
+2） Influenza index model based on causal driven AI mode
 
 
-## 2. 我的工作
+## 2. My Jobs
 
-1）收集资料并分析不同版本的流感指数及异同
+1）Collect data and analyze different versions of influenza index and their similarities and differences
   
-  - 美国CDC定义的流感指数
-  - 北京定义的流感指数
-  - 深圳定义的流感指数
+  - influ index defined by CDC
+  - influ index defined by BJ
+  - influ index defined by SZ
 
-2）分析存在流感指数锯齿和非流感样本病例对流感指数及流感分级的影响
+2）Analyze the impact of influenza index sawtooth and non influenza sample cases on influenza index and influenza grading
 
 ![本地图片](/images/juchi.png "流感指数锯齿分布现象")
 
 ![本地图片](/images/iprILI.png "某地非流感的流感样病例比例")
 
 
-3）利用AI模型修改流感指数
+3）Using AI models to modify influenza index
 
 
 
@@ -38,4 +41,4 @@ lang: en
 
 ---
 
-[← 返回上一级](javascript:history.back()) [🏠 返回首页](/)
+[← Back](javascript:history.back()) [🏠 Home](/)

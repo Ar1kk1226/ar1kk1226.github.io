@@ -84,9 +84,9 @@ lang: en
   </div>
   <h1>Hello，I'm Eric Wang</h1>
   <div class="bio">
-    En 热爱旅游、打篮球、开源、新技术分享。 <br>
-    专注于数据分析、各类建模、AI应用开发。<br>
-    在学习的同时，喜欢解决生活中遇到的问题，打造简洁实用的作品。
+    Passionate about traveling, playing basketball, open-source, and new technologies <br>
+    Focused on data analysis, various modeling, and AI application。<br>
+    Enjoy solving problems encountered in daily life and creating concise and practical works。
   </div>
 </div>
 
@@ -104,7 +104,8 @@ lang: en
 <!-- 项目预览 -->
 <h2 class="section-title">My Projects</h2>
 <div class="project-cards">
-  {% for project in site.projects limit:3 %}
+  {% assign matched_projects = site.projects | where: "lang", page.lang %}
+  {% for project in matched_projects limit:3 %}
   <div class="project-card">
     <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
     <p>{{ project.content | strip_html | truncate: 80 }}</p>

@@ -6,7 +6,7 @@ lang: en
 ---
 
 <!-- # 我的项目 -->
-这里展示我做过的开源项目 / 作品  Show my Projects 
+ Show my Projects 
 
 {% for project in site.projects %}
   {% if project.lang == 'en' %}

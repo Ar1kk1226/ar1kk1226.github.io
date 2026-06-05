@@ -2,7 +2,7 @@
 layout: page
 title: 无人机创新设计
 project_id: "airmodel"
-lang: zh 
+lang: zh
 
 permalink: /_projects/my-project/
 ---
@@ -119,6 +119,7 @@ Support Our Mission.
 ![local model fig8](/images/airmodel/figure8.jpg )
 
 TOTAL STARTUP REQUIREMENT: RMB 50,000
+
 
 
 

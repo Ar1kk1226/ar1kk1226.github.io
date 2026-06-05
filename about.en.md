@@ -7,15 +7,15 @@ lang: en
 
 <!--  # 关于我  -->
 
-Dec.2008, Born in Chengdu <br>
+Dec.2008, Borned in Chengdu <br>
 
-Sept.2011 -  Jun. 2015,  Fourth King Guarden of Chengdu 成都市第四幼儿园，度过欢乐时光<br>
+Sept.2011 -  Jun. 2015,  Chengdu Fourth Kindergarten, spending happy time<br>
 
-Sept.2015 - Jun.2021, 成都市茶店子小学 <br>
+Sept.2015 - Jun.2021, Chengdu Chadianzi Primary School <br>
 
-Sept.2021 - Jun.2023, 成都金苹果锦城第一中学<br>
+Sept.2021 - Jun.2023, Chengdu Golden Apple Jincheng No.1 Secondary School<br>
 
-Sept.2023 -  today  , 成都金苹果锦城第一中学国际部 IBDP课程体系
+Sept.2023 -  today  , IBDP International Department, Chengdu Golden Apple Jincheng No.1 Secondary School
 
 
 

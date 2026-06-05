@@ -27,6 +27,7 @@ header_pages:
 collections:
   projects:
     output: true
+    permalink: /projects/:name:output_ext
 
 #  minima 主题设置
 minima:

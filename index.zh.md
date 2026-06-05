@@ -82,7 +82,7 @@ lang: zh
   <div class="avatar">
    <img src="/images/my.jpg" alt="我的头像" style="width:120px; height:120px; border-radius:50%;" />
   </div>
-  <h1>Hello，I'm Eric Wang</h1>
+  <h1>你好，我是王怡瑞</h1>
   <div class="bio">
     热爱旅游、打篮球、开源、新技术分享。 <br>
     专注于数据分析、各类建模、AI应用开发。<br>
@@ -91,7 +91,7 @@ lang: zh
 </div>
 
 <!-- 技能 -->
-<h2 class="section-title">My Skills</h2>
+<h2 class="section-title">我的技能</h2>
 <div class="skills">
   <div class="skill-tag">HTML</div>
   <div class="skill-tag">Python</div>
@@ -102,9 +102,10 @@ lang: zh
 </div>
 
 <!-- 项目预览 -->
-<h2 class="section-title">My Projects</h2>
+<h2 class="section-title">我的精选项目</h2>
 <div class="project-cards">
-  {% for project in site.projects limit:3 %}
+  {% assign matched_projects = site.projects | where: "lang", page.lang %}
+  {% for project in matched_projects limit:3 %}
   <div class="project-card">
     <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
     <p>{{ project.content | strip_html | truncate: 80 }}</p>
