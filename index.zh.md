@@ -104,7 +104,7 @@ lang: zh
 <!-- 项目预览 -->
 <h2 class="section-title">我的精选项目</h2>
 <div class="project-cards">
-  {% assign matched_projects = site.projects | where: "lang", page.lang %}
+  {% assign matched_projects = site.projects | where: "lang", page.lang | sort: 'date'| reverse %}
   {% for project in matched_projects limit:3 %}
   <div class="project-card">
     <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>

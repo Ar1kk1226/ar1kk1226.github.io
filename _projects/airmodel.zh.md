@@ -3,7 +3,7 @@ layout: page
 title: 无人机创新设计
 project_id: "airmodel"
 lang: zh
-
+date: 2026-06-05
 permalink: /_projects/my-project/
 ---
 

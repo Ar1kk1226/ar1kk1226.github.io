@@ -3,7 +3,7 @@ layout: page
 title: Ground-Effect Vehicle Innovation
 project_id: "airmodel"
 lang: en
-
+date: 2026-06-05
 ---
 
 I establish a club with two of my classmates to innovate several new technologies attemp to resolve several problems

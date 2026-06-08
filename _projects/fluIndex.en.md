@@ -2,7 +2,7 @@
 layout: page
 title: Modeling and analysis of influenza index model
 lang: en
-
+date: 2026-05-09
 ---
 
 This project is led by Professor Zhang Tao from the West China School of Public Health, Sichuan University. 
