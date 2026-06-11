@@ -8,12 +8,11 @@ lang: en
 <!-- # 我的项目 -->
  Show my Projects 
 
-{% for project in site.projects %}
-  {% if project.lang == 'en' %}
+{% assign en_projects = site.projects | where: "lang", "en" | sort: 'date' | reverse %}
+{% for project in en_projects %}
   <div style="margin-bottom: 20px;">  
      <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
-       <p>{{ project.excerpt }}</p>
+     <p>{{ project.excerpt }}</p>
      <p><a href="{{ project.url }}">view details →</a></p>  
-   </div>
-  {% endif %}
+  </div>
 {% endfor %}
