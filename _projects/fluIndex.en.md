@@ -5,7 +5,7 @@ lang: en
 date: 2026-05-09
 ---
 
-This project is led by Professor Zhang Tao from the West China School of Public Health, Sichuan University. 
+This project is led by Professor Zhang from the West China School of Public Health, Sichuan University. 
 The main objective is to convert complex influenza surveillance data into a simple and understandable risk level model, providing citizens with protective recommendations
 
 
