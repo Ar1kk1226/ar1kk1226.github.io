@@ -41,31 +41,34 @@ date: 2026-06-08
 
 ### 3.1 灵感
 
-**The Inspiration:**  The cooling, large-scale shade structures at Singapore's Clarke Quay
+**灵感来源：**  新加坡克拉码头的凉爽大型遮阳结构。
 
-**The Problem:**  Chengdu's extreme summer heat keeps people away from outdoor parks.
+**问题：**  成都夏季极端高温天气导致市民远离户外公园。
 
-**Our Upgrade:**  A "Solar Umbrella." It provides cooling shade and harnesses the intense sunlight to generate electricity, turning a weather problem into a sustainable solution
+**我们的目的：**  设计一款“太阳能遮阳伞”，它既能提供遮荫降温，又能利用强光发电，将天气难题转化为可持续解决方案。
 
 ### 3.2 核心功能
 
-**Cooling Shade & Mist:** 
-The large umbrella blocks the hot sun, while a water mist spray system makes the air feel much cooler.
+**遮阳和喷雾：** 
+太阳伞挡住了烈日，而水雾喷雾系统使空气感觉凉爽得多。
 
-**Pet-Friendly:** 
-Adding a dog poop bag dispenser on the pole, it keeps the park clean and makes pet owners happy.
+**宠物友好：** 
+在太阳伞主杆上增加一个狗粪袋收集器，它可以保持公园的清洁，方便宠物主人存放。
 
-**Phone Charging (Day & Night):** 
-Solar panels on the top generate electricity. We also added a battery, so you can charge your phone even at night or on cloudy days!
+**手机充电：** 
+在太阳伞顶部添加了太阳能电池板，利用太阳能发电，您也可以给手机充电！
 
 ![local pic](/images/csp/corefun.jpg "Core Function") 
 
 ### 3.3 现实世界影响
 
-Why Here: 
-The strong direct sunlight makes these areas too hot to use, but they are perfect for solar power collection.
-Effect: 
-Provides cooling shade where people can comfortably relax, play, and charge their devices.
+为什么在这里：
+
+强烈的直射阳光使这些区域太热而无法使用，但它们非常适合太阳能收集。
+
+效果：
+
+提供阴凉处，让人们可以舒适地放松、玩耍和给设备充电。
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="/images/csp/diss1.jpg" alt="discussion" style="width: 48%;"/>
@@ -80,22 +83,23 @@ Provides cooling shade where people can comfortably relax, play, and charge thei
 
 ### 3.5 结论与反思
 
-We found that a larger solar panel area directly increases power output, which is why we maximized the surface to ensure the charging efficiency. 
-However, we overlooked how changing daily sun angles affects actual efficiency and lacked sufficient consideration for other animals like birds, even though it’s pet-friendly. Moving forward, we aim to optimize the design by updating it into a more suitable version for birds living and apply it to other parks as well.
+我们发现，更大的太阳能电池板面积直接增加了功率输出，这就是为什么我们最大化了表面以确保充电效率。然而，我们忽略了每天改变太阳角度对实际效率的影响，也没有充分考虑鸟类等其他动物，尽管它对宠物友好。
 
+展望未来，我们的目标是通过将其更新为更适合鸟类生活的版本来优化设计，并将其应用于其他公园。
 
 ## 4 试验设计
 
 ### 4.1 方法
 
-- IV: The luminance (Lux)
-- DV: The power delivered by panels(W)
-- CV: The number of panels, Material of the panels, 
+- IV: 亮度 (Lux)
+- DV: 面板提供的功率 (W)
+- CV: 面板数量、材料 
 
-**Experimental Procedure:**
-  1. Apparatus & Setup: Unfold the flexible solar array to expose all four panels completely flat on an unobstructed lawn to guarantee a uniform angle of incidence. Connect the system to a digital multimeter to measure real-time electrical power output (P, in W). Place a smartphone flat and parallel against the exposed panels to continuously monitor ambient illuminance (E, in lux).
-  2. Rapid Data Cycle: Under a specific natural lighting condition, wait for multimeter stabilization, then simultaneously record the power and illuminance for the 4-panel configuration. To ensure the independent variable (light intensity) remains constant, swiftly fold one panel beneath the array (obscuring it from sunlight) and immediately record data for the 3-panel configuration. Instantly repeat this folding mechanism for a second panel to capture the 2-panel data.
-  3. Variation & Control: Unfold the array back to its full 4-panel state. Wait for natural environmental shifts (e.g., cloud cover) to establish a new illuminance level, then repeat this rapid 4-3-2 folding cycle across a broad spectrum of light intensities (5,000 to 35,000 lux). Throughout all trials, ensure the exposed panels remain strictly horizontal to prevent mechanical shading.
+**实验程序：**
+  1. 装置和设置：展开柔性太阳能电池阵列，使所有四块电池板完全平坦地暴露在无障碍的草坪上，以确保入射角均匀。将系统连接到数字万用表，以测量实时电功率输出（P，单位为W）。将智能手机平放并平行于暴露的面板，以连续监测环境照度（E，单位为勒克斯）。
+  2. 快速数据周期：在特定的自然光照条件下，等待万用表稳定，然后同时记录4面板配置的功率和照度。为确保自变量（光强度）保持恒定，快速折叠阵列下方的一个面板（遮挡阳光），并立即记录3面板配置的数据。立即对第二个面板重复此折叠机制，以捕获2面板数据。
+  3. 变化与控制：将阵列展开回其完整的4面板状态。等待自然环境变化（如云层覆盖）建立新的照度水平，然后在宽光谱的光强度（5000至35000勒克斯）内重复这种快速的4-3-2折叠循环。在所有试验过程中，确保暴露的面板保持严格水平，以防止机械遮阳。
+
 
 ### 4.2 数据处理
 
@@ -111,25 +115,25 @@ However, we overlooked how changing daily sun angles affects actual efficiency a
 
 ### 4.3 原因分析
 
-Following the procedure above, we collected a number of raw data points of luminance and the corresponding power delivered. The processed dataset was then imported into Logger Pro to generate scatter plots of Illuminance (E) versus Power Output (P). For each array configuration, a line of best fit was plotted alongside the steepest (maximum) and shallowest (minimum) trend lines bounded by the experimental error bars. From the analysis of the app, the best fit line, the max&min slope, the intercept, and the R2 (coefficient of determination) can be acquired.
+按照上述程序，我们收集了许多亮度和相应功率的原始数据点。然后将处理后的数据集导入Logger Pro，以生成照度（E）与功率输出（P）的散点图。对于每种阵列配置，在实验误差条所界定的最陡（最大）和最浅（最小）趋势线旁边绘制了一条最佳拟合线。通过对应用程序的分析，可以获得最佳拟合线、最大和最小斜率、截距和R2（决定系数）。
 
-The absolute uncertainty of the gradient was calculated using the standard mathematical model △m=(m_max-m_min)/2 . The percentage uncertainty of the slope was then derived by dividing this absolute uncertainty by the gradient of the best-fit line (m_bestfit). The percentage uncertainties are 17.49%, 21.14%, and 13.89% for the 4, 3, and 2-panel configurations, respectively. Similarly, the absolute uncertainty of the y-intercept was determined. For R2, the values are 0.9509, 0.8524, and 0.8148 for the 4, 3, and 2-panel setups, respectively, thereby statistically quantifying the validity, variance, and reliability of our linear regression models prior to final evaluation.
+使用标准数学模型计算梯度的绝对不确定度△m=（m_max-m_min）/2。然后，通过将绝对不确定性除以最佳拟合线的梯度（m_bestfit），得出斜率的百分比不确定性。4、3和2面板配置的不确定性百分比分别为17.49%、21.14%和13.89%。同样，确定了y轴截距的绝对不确定度。对于R2，4、3和2面板设置的值分别为0.9509、0.8524和0.8148，从而在最终评估之前对线性回归模型的有效性、方差和可靠性进行统计量化。
 
 ### 4.4 评估和结论
 
-Based on the graphical analysis,we conclude that ambient illuminance and electrical power output maintain a fundamentally linear relationship,a hypothesis most strongly validated by the 4-panel configuration's high coefficient of determination(R²)of 0.9509.
-Although the R²values decrease for the 3-panel(0.8524)and 2-panel(0.8148)setups—indicating a larger data spread and less definitive correlation as the active area reduces—the overarching linear trend remains consistent.
+基于图形分析，我们得出结论，环境照度和电功率输出基本上保持线性关系，这一假设得到了4面板配置0.9509的高决定系数（R²）的最有力验证。
+尽管3-panel（0.8524）和2-panel（0.8148）设置的R²值降低，表明随着活动区域的减小，数据分布更大，相关性更不明确，但总体线性趋势保持一致。
 
-The calculated percentage uncertainties for the slopes of the 4,3,and 2-panel arrays are 17.49%,21.14%,and 13.89%,respectively.These uncertainties,alongside the presence of high-illuminance outliers,
-primarily stem from two specific measurement limitations:the reliance on manual human-eye estimation to average rapidly fluctuating multimeter values,and optical refractions within the smartphone camera lens,which severely distorted the lux readings under intense direct sunlight.
+4、3和2面板阵列斜率的计算不确定度百分比分别为17.49%、21.14%和13.89%。这些不确定性以及高照度异常值的存在，
+主要源于两个具体的测量限制：依赖人工人眼估计来平均快速波动的万用表值，以及智能手机摄像头镜头内的光学折射，这严重扭曲了强烈直射阳光下的勒克斯读数。
 
 | **缺点** | **优势** |
 | ---                                                                                                                                    | ---                                                                                                                            |
-| Unstable Manual Readings: Relying on human observation to record rapidly fluctuating multimeter data introduced significant subjective error.  | Utilize a digital data logger or dedicated voltage/current sensors connected directly to computer software (such as Logger Pro) to record and average electrical output continuously over a set timeframe. |
+| 不稳定的手动读数：依靠人类观察来记录快速波动的万用表数据引入了明显的主观误差。  | 利用直接连接到计算机软件（如logger Pro）的数字数据记录器或专用电压/电流传感器，在设定的时间范围内连续记录和平均电输出。 |
 | ---                                                                                                                                    | ---                                                                                                                            |
-| Inaccurate Lux Measurement: Using a smartphone camera application to measure high-intensity sunlight caused optical refraction and reflection, heavily distorting the independent variable.  | Employ a dedicated, standalone digital lux meter equipped with a cosine-corrected diffuser to prevent internal light scattering and accurately capture direct solar radiation.|
+| 照度测量不准确：使用智能手机相机应用程序测量高强度阳光引起的光学折射和反射，严重扭曲自变量。  | 使用配备余弦校正漫射器的专用独立数字照度计，以防止内部光散射并准确捕获直接太阳辐射。|
 | ---                                                                                                                                    | ---                                                                                                                            |
-| Dynamic Environmental Variables: Experimenting outdoors meant that variables such as cloud cover, temperature, and sun angle were constantly shifting, contributing to the data outliers.  | Conduct baseline control trials in a laboratory setting using an artificial, adjustable light source (e.g., halogen lamps) to strictly isolate the illuminance variable before field testing.|
+| 动态环境变量：户外实验意味着云层覆盖、温度和太阳角等变量不断变化，导致数据异常。  | 在实验室环境中使用人工可调光源（如卤素灯）进行基线控制试验，以在现场测试前严格隔离照度变量。|
 
 ![local pic](/images/csp/exhib.jpg "Exhibition") 
 
